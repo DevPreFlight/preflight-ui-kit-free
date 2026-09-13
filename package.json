@@ -1,0 +1,49 @@
+{
+  "name": "preflight-ui-community",
+  "version": "1.0.0",
+  "description": "DevPreFlight Flat UI Component Kit (Community Edition) - 15 Modern, Accessible Copy-Paste Primitives & Dashboard Widgets for React 19, Next.js 15 & Tailwind CSS",
+  "author": "DevPreFlight Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevPreFlight/preflight-ui-kit-free.git"
+  },
+  "keywords": [
+    "react",
+    "react-19",
+    "nextjs",
+    "nextjs-15",
+    "tailwind",
+    "tailwindcss",
+    "ui-kit",
+    "components",
+    "flat-design",
+    "accessible",
+    "wcag-aaa"
+  ],
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.16.0",
+    "next": "^16.3.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.3"
+  }
+}

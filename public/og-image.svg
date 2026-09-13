@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="brandGradOG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+    <radialGradient id="glowTopRight" cx="90%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#eff6ff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowBottomLeft" cx="10%" cy="90%" r="50%">
+      <stop offset="0%" stop-color="#eff6ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dotGrid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#cbd5e1" fill-opacity="0.6"/>
+    </pattern>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#0f172a" flood-opacity="0.06"/>
+    </filter>
+    <filter id="miniShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.04"/>
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  <rect width="1200" height="630" fill="url(#dotGrid)"/>
+  <rect width="1200" height="630" fill="url(#glowTopRight)"/>
+  <rect width="1200" height="630" fill="url(#glowBottomLeft)"/>
+
+  <!-- Top Brand Row -->
+  <g transform="translate(80, 52)">
+    <!-- Brand Icon -->
+    <rect width="52" height="52" rx="14" fill="url(#brandGradOG)"/>
+    <g transform="translate(12, 12) scale(1.16)" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+      <path d="M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+      <path d="M9 12H4s.55-3.03 2-4.5c1.62-1.63 5-1.5 5-1.5"/>
+      <path d="M12 15v5s3.03-.55 4.5-2c1.63-1.62 1.5-5 1.5-5"/>
+    </g>
+    
+    <!-- Brand Title -->
+    <text x="68" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="28" fill="#0f172a" letter-spacing="-1px">
+      DevPreFlight <tspan fill="#2563eb">UI Kit</tspan>
+    </text>
+
+    <!-- Top Badge 1 -->
+    <g transform="translate(370, 10)">
+      <rect width="165" height="32" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+      <text x="82" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="12" fill="#1d4ed8" text-anchor="middle" letter-spacing="0.5px">FLAT DESIGN SYSTEM</text>
+    </g>
+
+    <!-- Top Badge 2 -->
+    <g transform="translate(860, 10)">
+      <rect width="180" height="32" rx="6" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#miniShadow)"/>
+      <circle cx="20" cy="16" r="4" fill="#16a34a"/>
+      <text x="98" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="12" fill="#0f172a" text-anchor="middle">WCAG AAA COMPLIANT</text>
+    </g>
+  </g>
+
+  <!-- Left Content Area -->
+  <g transform="translate(80, 135)">
+    <!-- Category Pill -->
+    <rect width="365" height="34" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+    <text x="182" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="13" fill="#2563eb" text-anchor="middle" letter-spacing="0.8px">
+      ⚡ 60+ COPY-PASTE FLAT SAAS COMPONENTS
+    </text>
+
+    <!-- Main Headline -->
+    <text x="0" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="50" fill="#0f172a" letter-spacing="-2px">
+      Modern Flat UI Kit for
+    </text>
+    <text x="0" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="50" fill="#2563eb" letter-spacing="-2px">
+      React 19 &amp; Next.js 15
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="20" fill="#475569">
+      WCAG AAA compliant, zero-bloat component library with pure Tailwind CSS.
+    </text>
+    <text x="0" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="20" fill="#475569">
+      Built for indie hackers, startups, and agencies with zero setup debt.
+    </text>
+  </g>
+
+  <!-- Right Showcase Preview Card -->
+  <g transform="translate(760, 135)" filter="url(#cardShadow)">
+    <rect width="360" height="285" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+    
+    <!-- Card Header -->
+    <g transform="translate(24, 24)">
+      <circle cx="6" cy="6" r="6" fill="#22c55e"/>
+      <text x="22" y="10" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="13" fill="#64748b">METRIC COMPONENT</text>
+      
+      <rect x="235" y="-2" width="75" height="24" rx="6" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <text x="272" y="14" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="11" fill="#2563eb" text-anchor="middle">REACT 19</text>
+    </g>
+
+    <!-- Metric Value -->
+    <g transform="translate(24, 75)">
+      <text x="0" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="34" fill="#0f172a" letter-spacing="-1px">$48,290.00</text>
+      <rect x="205" y="6" width="105" height="28" rx="6" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+      <text x="257" y="24" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="12" fill="#16a34a" text-anchor="middle">↑ +24.8% MRR</text>
+      <text x="0" y="58" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="13" fill="#64748b">Verified ARR growth across 12 SaaS projects</text>
+    </g>
+
+    <!-- Divider -->
+    <line x1="24" y1="168" x2="336" y2="168" stroke="#f1f5f9" stroke-width="1.5"/>
+
+    <!-- Action Buttons Preview -->
+    <g transform="translate(24, 188)">
+      <rect width="185" height="42" rx="8" fill="#2563eb"/>
+      <text x="92" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="14" fill="#ffffff" text-anchor="middle">Copy Component →</text>
+      
+      <g transform="translate(195, 0)">
+        <rect width="115" height="42" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1.5"/>
+        <text x="57" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="13" fill="#1d4ed8" text-anchor="middle">Storybook</text>
+      </g>
+    </g>
+
+    <!-- Mini Token Tags -->
+    <g transform="translate(24, 248)">
+      <text x="0" y="14" font-family="-apple-system, BlinkMacSystemFont, 'JetBrains Mono', monospace" font-size="11" fill="#94a3b8">tokens: flat-white • blue-600 • wcag-aaa</text>
+    </g>
+  </g>
+
+  <!-- Bottom 4 Feature Pillars -->
+  <g transform="translate(80, 485)">
+    <!-- Pillar 1: React 19 & Next.js 15 -->
+    <g transform="translate(0, 0)">
+      <rect width="245" height="74" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#miniShadow)"/>
+      <rect x="14" y="15" width="44" height="44" rx="10" fill="#eff6ff" stroke="#bfdbfe" stroke-width="1"/>
+      <g transform="translate(14, 15)">
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#2563eb" stroke-width="1.6" transform="rotate(30 22 22)"/>
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#2563eb" stroke-width="1.6" transform="rotate(90 22 22)"/>
+        <ellipse cx="22" cy="22" rx="13" ry="5" fill="none" stroke="#2563eb" stroke-width="1.6" transform="rotate(150 22 22)"/>
+        <circle cx="22" cy="22" r="2.5" fill="#2563eb"/>
+      </g>
+      <text x="68" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="14" fill="#0f172a">React 19 Ready</text>
+      <text x="68" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="12" fill="#64748b">Next.js 15 App Router</text>
+    </g>
+
+    <!-- Pillar 2: Tailwind CSS & Flat UI -->
+    <g transform="translate(265, 0)">
+      <rect width="245" height="74" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#miniShadow)"/>
+      <rect x="14" y="15" width="44" height="44" rx="10" fill="#f0f9ff" stroke="#bae6fd" stroke-width="1"/>
+      <g transform="translate(24, 25)" stroke="#0284c7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M12 19l7-7 3 3-7 7-3-3z"/>
+        <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/>
+        <path d="M2 2l7.586 7.586"/>
+        <circle cx="11" cy="11" r="2" fill="#0284c7"/>
+      </g>
+      <text x="68" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="14" fill="#0f172a">Tailwind CSS</text>
+      <text x="68" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="12" fill="#64748b">Modern Flat White &amp; Blue</text>
+    </g>
+
+    <!-- Pillar 3: TypeScript First & WCAG AAA -->
+    <g transform="translate(530, 0)">
+      <rect width="245" height="74" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#miniShadow)"/>
+      <rect x="14" y="15" width="44" height="44" rx="10" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="1"/>
+      <g transform="translate(24, 25)" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+        <path d="M9 12l2 2 4-4"/>
+      </g>
+      <text x="68" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="14" fill="#0f172a">TypeScript &amp; AAA</text>
+      <text x="68" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="12" fill="#64748b">Zero Any, Full A11y</text>
+    </g>
+
+    <!-- Pillar 4: Zero Bloat Copy-Paste -->
+    <g transform="translate(795, 0)">
+      <rect width="245" height="74" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" filter="url(#miniShadow)"/>
+      <rect x="14" y="15" width="44" height="44" rx="10" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+      <g transform="translate(24, 25)" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+        <rect x="8" y="8" width="14" height="14" rx="3"/>
+        <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+      </g>
+      <text x="68" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="700" font-size="14" fill="#0f172a">100% Copy-Paste</text>
+      <text x="68" y="50" font-family="-apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="500" font-size="12" fill="#64748b">Zero Runtime Bloat</text>
+    </g>
+  </g>
+</svg>
