@@ -1,7 +1,7 @@
 # 🚀 Preflight UI — Free Community Edition (MIT)
 
 > **The Modern Flat White & Blue Component Library for React 19, Next.js 15, and Tailwind CSS.**  
-> 15 modular, accessible (WCAG AAA), zero-bloat copy-paste primitives and dashboard widgets with an interactive showcase and starter template.
+> 15 modular, accessible (WCAG AAA), zero-bloat copy-paste primitives and dashboard widgets with an interactive showcase, AI agent skills, and starter template.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React 19](https://img.shields.io/badge/React-19.0.0-61dafb.svg)](https://react.dev)
@@ -41,6 +41,16 @@ Open [http://localhost:3000](http://localhost:3000) to view the interactive show
 
 ---
 
+## 🤖 AI Coding Agent Ready
+
+This free repository includes **`SKILL.md`**, **`.cursorrules`**, and **`CLAUDE.md`** pre-configured for:
+- **Google Antigravity**: Included under `.agents/skills/preflight-ui-kit-free/SKILL.md`
+- **Cursor IDE**: Automatically reads `.cursorrules`
+- **Claude Code**: Automatically reads `CLAUDE.md` and `SKILL.md`
+- **Windsurf & Copilot**: Reference `SKILL.md` for exact component props and recipes
+
+---
+
 ## 💡 How to Use in Your Project (Copy & Paste)
 
 All components are standalone with zero hidden runtime dependencies. You can import directly from `@preflight-ui/react` or copy the file into your components folder:
@@ -66,17 +76,17 @@ export function UserProfileCard() {
 
 ## 🚀 Comparison: Community (Free) vs. Pro (Commercial)
 
-Looking for full SaaS Commerce modules, Paywalls, Marketing blocks, and AI Agent workflows?
+Looking for full SaaS Commerce modules, Paywalls, Marketing blocks, and commercial licenses?
 
 | Feature / Component | Free Community (MIT) | Pro Commercial Edition |
 | :--- | :---: | :---: |
 | **Total Components** | 15 Modules | **60+ Modules** |
 | **UI Primitives & Dashboard Stats** | ✅ Included | ✅ Included |
+| **AI Agent Skills & Config** | ✅ Included (15 MIT Components) | ✅ **Full 60+ Commercial Modules Guide** |
 | **Commerce & Billing Blocks** | ❌ | ✅ **PaywallGate, PricingMatrix, Invoicing, CheckoutCard** |
 | **Marketing Sections & Grids** | ❌ | ✅ **Hero Blocks, Features Grid, FAQ, Multi-Col Footers** |
 | **Feedback & Overlays** | ❌ | ✅ **Modal Dialogs, Slide-Over Drawers, Toast Notifications** |
 | **Advanced Data Tables** | ❌ | ✅ **Live Search, Multi-Filter, Sort, Pagination** |
-| **AI Agent Skills & Config** | ❌ | ✅ **`SKILL.md`, `.cursorrules`, `CLAUDE.md`** |
 | **Storybook Full Explorer** | Starter Showcase | ✅ **Full 60+ Module Sandbox & Addon Controls** |
 | **Commercial License** | MIT | **Unlimited Commercial Projects** |
 
