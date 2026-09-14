@@ -48,13 +48,17 @@ In the Community Edition, components reside in `packages/react/src/`:
 packages/react/src/
 ├── primitives/     # 13 Core UI Primitives (Buttons, Inputs, Toggles, Radios, Badges, etc.)
 ├── dashboard/      # 2 Free Dashboard Modules (QuickStatsBar, StatusBadge)
+├── tokens/         # Type-safe design tokens (colors, radius, shadows, typography, transitions)
 └── types/          # Shared TypeScript type definitions
 ```
 
 ### Import Conventions:
 
 ```tsx
-// Option A: Direct category import
+// Option A: Design tokens import
+import { tokens, colors, radius, shadows, typography, transitions } from '@/packages/react';
+
+// Option B: Direct category import
 import {
   Button,
   IconButton,
@@ -75,12 +79,13 @@ import {
 import { QuickStatsBar, StatusBadge } from '@/packages/react/src/dashboard';
 import type { MetricItem, StatusType } from '@/packages/react/src/types';
 
-// Option B: Barrel import from package root
+// Option C: Barrel import from package root
 import {
   Button,
   TextInput,
   QuickStatsBar,
   StatusBadge,
+  tokens,
 } from '@/packages/react/src';
 ```
 

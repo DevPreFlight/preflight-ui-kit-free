@@ -4,5 +4,6 @@
  */
 
 export * from './types';
+export * from './tokens';
 export * from './primitives';
 export * from './dashboard';
