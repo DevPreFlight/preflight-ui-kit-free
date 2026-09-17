@@ -96,7 +96,7 @@ import {
 ### 1. Buttons & Action Triggers
 
 #### `Button`
-Versatile button with flat styling, custom sizes, icons, and active click scaling.
+Versatile button with flat styling, custom sizes, icons, loading states, and active click scaling.
 ```tsx
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'danger' | 'subtle';
@@ -104,10 +104,14 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   fullWidth?: boolean;
   leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
+  loading?: boolean;
+  isLoading?: boolean;
+  loadingText?: string;
 }
 
 // Usage:
 <Button variant="primary" size="md">Save Changes</Button>
+<Button variant="primary" loading={isSubmitting} loadingText="Saving...">Save Changes</Button>
 <Button variant="secondary" size="sm">Cancel</Button>
 <Button variant="outline" rightIcon={<ArrowRight size={16} />}>Continue</Button>
 <Button variant="danger">Delete Account</Button>
