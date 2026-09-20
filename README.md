@@ -51,12 +51,16 @@ This free repository includes **`SKILL.md`**, **`.cursorrules`**, and **`CLAUDE.
 
 ---
 
-## 💡 How to Use in Your Project (Copy & Paste)
+## 💡 How to Use in Your Project
 
-All components are standalone with zero hidden runtime dependencies. You can import directly from `@preflight-ui/react` or copy the file into your components folder:
+### 1. Install via NPM
+```bash
+npm install @devpreflight/ui-kit clsx tailwind-merge
+```
 
 ```tsx
-import { Button, TextInput, StatusBadge } from './packages/react/src';
+import { Button, TextInput, StatusBadge } from '@devpreflight/ui-kit';
+import '@devpreflight/ui-kit/styles.css';
 
 export function UserProfileCard() {
   return (
@@ -71,6 +75,33 @@ export function UserProfileCard() {
   );
 }
 ```
+
+---
+
+## 🎨 Design Token Customization (100% CI/CD Safe)
+
+Never modify files inside `node_modules` — customize your brand palette in your project's `app/globals.css`:
+
+```css
+/* app/globals.css */
+@import "@devpreflight/ui-kit/styles.css";
+
+/* Your Custom Brand Tokens (Persistent in Git) */
+:root {
+  --primary: #6366f1;         /* Custom brand color */
+  --primary-hover: #4f46e5;
+  --primary-light: #eef2ff;
+  --primary-border: #c7d2fe;
+  --radius-md: 6px;           /* Custom corner radius */
+}
+```
+
+### 🛠️ AI Agent Command: `/preflight-ui-kit token <options>`
+If you use AI coding agents (Antigravity, Cursor, Claude Code), just type:
+```text
+/preflight-ui-kit token primary=emerald radius=sharp
+```
+The agent will automatically update your `app/globals.css` token definitions.
 
 ---
 

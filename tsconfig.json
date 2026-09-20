@@ -26,8 +26,11 @@
       "@/*": [
         "./*"
       ],
-      "@/packages/*": [
-        "./packages/*"
+      "@devpreflight/ui-kit": [
+        "./packages/react/src/index.ts"
+      ],
+      "@devpreflight/tokens": [
+        "./packages/tokens/index.ts"
       ]
     }
   },

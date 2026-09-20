@@ -15,11 +15,9 @@ import {
   Tooltip,
   Avatar,
   Chip,
-} from '../packages/react/src/primitives';
-import {
   QuickStatsBar,
   StatusBadge,
-} from '../packages/react/src/dashboard';
+} from '@devpreflight/ui-kit';
 
 export default function CommunityPage() {
   const [activeTab, setActiveTab] = useState<'primitives' | 'dashboard'>('primitives');
